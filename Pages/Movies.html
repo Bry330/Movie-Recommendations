@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Day 5 - Boleam/Project - Movie catalog/style.css">
+    <script src="/Day 5 - Boleam/Project - Movie catalog/script.js"></script>
+    <title>Movies</title>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Here is my Navbar -->
+    
+        <div id="navbar">
+    
+            <button onclick="openSidebar()">☰</button>
+    
+            <!-- here is my Sidebar -->
+    
+            <div id="sidebar">
+                <button onclick="closeSidebar()">X</button>
+                <a href="/Day 5 - Boleam/Project - Movie catalog/index.html"><img src="/Day 5 - Boleam/Project - Movie catalog/Images/home.png" alt="" width="97%"></a>
+                <a href="Movies.html"><img src="/Day 5 - Boleam/Project - Movie catalog/Images/movie.png" width="97%" alt=""></a>
+                <a href="Series.html"><img src="/Day 5 - Boleam/Project - Movie catalog/Images/Series.PNG" width="97%" alt=""></a>
+                <a href="Contact.html"><img src="/Day 5 - Boleam/Project - Movie catalog/Images/Contact.png" width="97%" alt=""></a>
+            </div>
+            
+            <img src="/Day 5 - Boleam/Project - Movie catalog/Images/Take.png" id="logo" alt="" width="5%">
+            <h2 id="moview">Mo-view</h2>
+    
+            <input type="search" id="searchbar">
+            <button>Search</button>
+    
+        </div>
+
+        <div id="Msuggestion">
+
+            <p><b>How old are you?</b></p><br>
+            <input type="number" id="Msuggest"><br>
+<br>
+            <p><b>Which is the movie gender you like the most:</b></p>
+
+            <button onclick="recommendM('action')">Action</button>
+            <button onclick="recommendM('adventure')">Adventure</button>
+            <button onclick="recommendM('horror')">Horror</button>
+            <button onclick="recommendM('comedy')">Comedy</button>
+
+            <h2 id="respond">We recommend you:</h2>
+
+        </div>
+    
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: none;
+}
+
+body {
+    background-image: url(Images/back.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: scroll, hidden;
+    height: 20em;
+        
+}
+
+/* Navigation bar styles */
+
+#navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 0, 0);
+    border-radius: 3px;
+    color: white;
+    padding: 10px;
+}
+
+#searchbar{
+    position: relative;
+    top: 15px;
+    left: 210px;
+    height: 30px;
+    border: solid;
+    border-radius: 20px;
+}
+
+#logo{
+    position: relative;
+    right: -290px;
+}
+
+#moview{
+    position: relative;
+    top: 20px;
+    right: -70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{ 
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: solid black;
+    border-radius: 5px;  
+}
+
+a:hover{
+    color:black;
+    background-color: white;
+    border: solid white;
+}
+
+#sidebar{
+    display: none;
+    justify-content: space-around ;
+    flex-direction: column;
+    background-color: #111;
+    padding: 15px;
+    position: fixed;
+    top: -20px;
+    left: -20px;
+    height: 100%;
+    width: 250px;
+    z-index: 1;
+}
+
+#sidebar, button{
+    margin: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}
+
+
+/* Index styles */
+
+#presentation {
+    position: relative;
+    top: 190px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 50px;
+}
+
+#top10 {
+    position: relative;
+    width: 620px;
+    top: 290px;
+    left: 320px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.8);
+    padding: 50px;
+}
+
+#Aboutus {
+    position: relative;
+    top: 399px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+/* Contact us style part */
+
+#comments{
+    position: relative;
+    top: 190px;
+    left: 110px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 60px;
+    width: 990px;
+}
+
+#formulari{
+    margin: auto;
+}
+
+/* movies recommendation styles */
+
+#Msuggestion{
+    position: relative;
+    justify-content: center;
+    top: 190px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.9);
+    padding: 50px;
+    text-align: center;
+}
+
+#Msuggest {
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color: black;
+}
+
+button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+
+/* Contact us page styles */
+
+#contactus{
+    position: relative;
+    justify-content: center;
+    top: 190px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.9);
+    padding: 50px;
+    text-align: center;
+}
