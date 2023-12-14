@@ -171,3 +171,17 @@ button:hover{
     padding: 50px;
     text-align: center;
 }
+
+#Email{
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#Opinions{
+    width: 30%;
+    height: 90px;
+    border-radius: 20px;
+    text-align: center;
+}
